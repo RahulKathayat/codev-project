@@ -1,5 +1,10 @@
 <script lang="ts">
-	import { user } from '$lib/stores';
+	import LoadingScreenDefault from '$lib/pages/LoadingScreenDefault.svelte';
+	import { isLoading, user } from '$lib/stores';
 </script>
 
-Userdata: {$user}
+{#if $isLoading}
+	Userdata: {$user}
+{:else}
+	<LoadingScreenDefault />
+{/if}
