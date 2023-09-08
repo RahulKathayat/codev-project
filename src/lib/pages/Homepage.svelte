@@ -43,8 +43,8 @@
 					<span class="block text-indigo-600 xl:inline">for free</span>
 				</h1>
 				<p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-					Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
-					Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+					We are passionate about <span class="block text-indigo-600 xl:inline">revolutionizing</span> the way we see products.<br>
+					 Our innovative platform combines technology, expertise, and community to create an unparalleled User experience.
 				</p>
 				<div class="mt-10 sm:flex sm:justify-center lg:justify-start">
 					<div class="rounded-md shadow">
