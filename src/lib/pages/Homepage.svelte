@@ -14,8 +14,12 @@
 					<span class="block text-indigo-600 xl:inline">for free</span>
 				</h1>
 				<p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-					We are passionate about <span class="block text-indigo-600 xl:inline">revolutionizing</span> the way we see products.<br>
-					 Our innovative platform combines technology, expertise, and community to create an unparalleled User experience.
+					We are passionate about <span class="block text-indigo-600 xl:inline"
+						>revolutionizing</span
+					>
+					the way we see products.<br />
+					Our innovative platform combines technology, expertise, and community to create an unparalleled
+					User experience.
 				</p>
 				<div class="mt-10 sm:flex sm:justify-center lg:justify-start">
 					<div class="rounded-md shadow">
@@ -34,7 +38,7 @@
 		>
 			<img
 				class="absolute inset-0 w-full h-full object-cover"
-				src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
+				src="https://images.unsplash.com/photo-1594144656234-8f841637455b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2970&q=80"
 				alt=""
 			/>
 		</div>

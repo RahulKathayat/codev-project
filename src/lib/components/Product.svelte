@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { cartItems } from '$lib/stores';
 	import type { Product } from '../../global';
+	import { toast } from '@zerodevx/svelte-toast';
 
 	export let removeIcon = false;
 	export let data: Product;
@@ -12,7 +13,7 @@
 			<img src={data.image} class="w-full h-full object-cover" alt="" />
 		</div>
 
-		<div class="mt-4 font-semibold">
+		<div class="mt-4 font-semibold line-clamp-2">
 			Title: {data.title}
 		</div>
 
@@ -25,6 +26,8 @@
 			<button
 				on:click={() => {
 					const newItems = $cartItems.filter((e) => e.id !== data.id);
+					toast.push('Removed from cart!');
+
 					cartItems.set(newItems);
 				}}
 				class="bg-red-600 mt-3 px-4 py-2 font-semibold rounded-md text-white block w-full"
@@ -34,6 +37,8 @@
 		{:else}
 			<button
 				on:click={() => {
+					toast.push('Added to cart!');
+
 					cartItems.set([...$cartItems, data]);
 				}}
 				class="bg-green-600 px-4 py-2 font-semibold rounded-md text-white block w-full"
