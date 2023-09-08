@@ -3,25 +3,25 @@
 
 	const categoriesData = [
 		{
-			img: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80',
+			img: 'https://images.unsplash.com/photo-1586880244406-556ebe35f282?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZSUyMGNvbW1lcmNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60',
 			heading: 'Lorem ipsum dolor',
 			description:
 				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus necessitatibus accusantium ab commodi amet.'
 		},
 		{
-			img: 'https://images.unsplash.com/photo-1518152006812-edab29b069ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
+			img: 'https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60',
 			heading: 'Lorem ipsum dolor',
 			description:
 				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus necessitatibus accusantium ab commodi amet.'
 		},
 		{
-			img: 'https://images.unsplash.com/photo-1598193957036-67845e5ead00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80',
+			img: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amFja2V0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
 			heading: 'Lorem ipsum dolor',
 			description:
 				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus necessitatibus accusantium ab commodi amet.'
 		},
 		{
-			img: 'https://images.unsplash.com/photo-1620455800201-7f00aeef12ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80',
+			img: 'https://plus.unsplash.com/premium_photo-1681305757960-8346c233ff4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGUlMjBjb21tZXJjZSUyMHByb2R1Y3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60',
 			heading: 'Lorem ipsum dolor',
 			description:
 				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus necessitatibus accusantium ab commodi amet.'
