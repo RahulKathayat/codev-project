@@ -4,27 +4,27 @@
 	const categoriesData = [
 		{
 			img: 'https://images.unsplash.com/photo-1586880244406-556ebe35f282?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZSUyMGNvbW1lcmNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60',
-			heading: 'Lorem ipsum dolor',
+			heading: 'Modern Laptop',
 			description:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus necessitatibus accusantium ab commodi amet.'
+				'Experience productivity on-the-go with our sleek and powerful laptop. Packed with cutting-edge technology, it offers seamless multitasking and stunning visuals for work or play.'
 		},
 		{
 			img: 'https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60',
-			heading: 'Lorem ipsum dolor',
+			heading: 'Vans Limited Edition',
 			description:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus necessitatibus accusantium ab commodi amet.'
+				'Step into comfort and style with our versatile shoes. Whether youre hitting the gym, exploring the outdoors, or heading to a special event, our shoes provide the perfect blend of support and fashion.'
 		},
 		{
 			img: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amFja2V0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
-			heading: 'Lorem ipsum dolor',
+			heading: 'Prada Jacket',
 			description:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus necessitatibus accusantium ab commodi amet.'
+				'Stay stylish and warm in our premium jacket. Crafted with high-quality materials, its designed to keep you cozy in cold weather while making a fashion statement.'
 		},
 		{
 			img: 'https://plus.unsplash.com/premium_photo-1681305757960-8346c233ff4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGUlMjBjb21tZXJjZSUyMHByb2R1Y3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60',
-			heading: 'Lorem ipsum dolor',
+			heading: 'IPhone 14 pro',
 			description:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus necessitatibus accusantium ab commodi amet.'
+				'Elevate your digital life with our advanced smartphone. Featuring a stunning display, lightning-fast performance, and a camera that captures moments in breathtaking detail, its the perfect companion for modern living.'
 		}
 	];
 </script>
