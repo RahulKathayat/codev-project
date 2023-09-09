@@ -2,19 +2,21 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import { cartItems, user } from '$lib/stores';
 	import '$lib/styles/tailwind.scss';
+	import { getCurrentUser } from '$lib/utils/auth';
 	import { onMount } from 'svelte';
-	import { SvelteToast } from '@zerodevx/svelte-toast';
-	import { browser } from '$app/environment';
+	import { Toaster } from 'svelte-french-toast';
 
 	onMount(() => {
-		$cartItems = JSON.parse(localStorage.getItem('cart') ?? '') || [];
+		getCurrentUser();
+
+		cartItems.set(JSON.parse(localStorage.getItem('cart') ?? '[]'));
 		cartItems.subscribe((data) => {
-			if (browser) localStorage && localStorage.setItem('cart', JSON.stringify(data));
+			localStorage && localStorage.setItem('cart', JSON.stringify(data));
 		});
 	});
 </script>
 
-<SvelteToast />
+<Toaster />
 
 <div class="relative bg-white shadow">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6">

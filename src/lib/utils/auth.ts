@@ -10,6 +10,7 @@ import { app } from './config';
 import { goto } from '$app/navigation';
 import { page } from '$app/stores';
 import { get } from 'svelte/store';
+import toast from 'svelte-french-toast';
 
 const provider = new GoogleAuthProvider();
 const auth = getAuth(app);
@@ -18,6 +19,7 @@ export const signInWithGoogle = async () => {
 	isLoading.set(true);
 	await signInWithPopup(auth, provider)
 		.then((result) => {
+			toast.success('Login success! Welcome ' + result.user.displayName);
 			user.set(result.user);
 			goto('/');
 		})
