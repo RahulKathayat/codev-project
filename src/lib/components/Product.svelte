@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { cartItems } from '$lib/stores';
 	import type { Product } from '../../global';
-	import { toast } from '@zerodevx/svelte-toast';
+	import { toast } from 'svelte-french-toast';
 
 	export let removeIcon = false;
 	export let data: Product;
@@ -26,7 +26,7 @@
 			<button
 				on:click={() => {
 					const newItems = $cartItems.filter((e) => e.id !== data.id);
-					toast.push('Removed from cart!');
+					toast.success('Removed from cart!');
 
 					cartItems.set(newItems);
 				}}
@@ -37,7 +37,7 @@
 		{:else}
 			<button
 				on:click={() => {
-					toast.push('Added to cart!');
+					toast.success('Added to cart!');
 
 					cartItems.set([...$cartItems, data]);
 				}}
